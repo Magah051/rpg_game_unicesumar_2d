@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         isWalking = eixoX != 0 || eixoY != 0;
 
         rb.velocity = new Vector2(eixoX,eixoY);
-
+        //Animations
         if (isWalking)
         {
             playerAnimator.SetFloat("eixoX", eixoX);
