@@ -2772,8 +2772,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108099290}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.43, y: 11.13, z: 0.017332818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.033909, y: 7.3344874, z: -0.018598266}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2796,7 +2796,7 @@ Transform:
   - {fileID: 613485994}
   - {fileID: 397017767}
   - {fileID: 1446708586}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 556661281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108766172
 GameObject:
@@ -8855,8 +8855,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362178991}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4835535, y: -1.4264189, z: 0.017332818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.087462, y: -5.2219315, z: -0.018598266}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8879,7 +8879,7 @@ Transform:
   - {fileID: 509960175}
   - {fileID: 1952827698}
   - {fileID: 282749815}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 556661281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &363217507
 GameObject:
@@ -14444,6 +14444,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &556661280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 556661281}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &556661281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556661280}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.603909, y: 3.7955127, z: 0.035931084}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 362178992}
+  - {fileID: 108099291}
+  - {fileID: 2000146601}
+  - {fileID: 1367414356}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &558886946
 GameObject:
   m_ObjectHideFlags: 0
@@ -35600,8 +35635,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367414355}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.463554, y: 11.056419, z: 0.017332818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.859646, y: 7.2609067, z: -0.018598266}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35624,7 +35659,7 @@ Transform:
   - {fileID: 40747677}
   - {fileID: 296184144}
   - {fileID: 243599401}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 556661281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370438106
 GameObject:
@@ -52028,8 +52063,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000146600}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.41, y: -1.5, z: 0.017332818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.806091, y: -5.2955127, z: -0.018598266}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52052,7 +52087,7 @@ Transform:
   - {fileID: 1196912778}
   - {fileID: 2114498767}
   - {fileID: 797283637}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 556661281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2003286851
 GameObject:
@@ -56231,8 +56266,5 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 362178992}
-  - {fileID: 108099291}
-  - {fileID: 2000146601}
-  - {fileID: 1367414356}
   - {fileID: 427659276}
+  - {fileID: 556661281}
