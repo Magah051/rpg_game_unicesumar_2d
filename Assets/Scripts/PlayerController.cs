@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -30,5 +31,18 @@ public class PlayerController : MonoBehaviour
             playerAnimator.SetFloat("eixoY", eixoY);
         }
         playerAnimator.SetBool("isWalking", isWalking);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            playerAnimator.SetTrigger("Attack");
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("AttackEnemy"))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

@@ -22,7 +22,23 @@ public class EnemyController : MonoBehaviour
         scale = transform.localScale;
     }
 
-    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            animator.SetTrigger("Attack");
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("CombatZone"))
+        {
+            animator.SetTrigger("Death");
+            Destroy(gameObject, 1f);
+        }
+    }
+
     void Update()
     {
         MoveTowardsTarget();
@@ -59,7 +75,7 @@ public class EnemyController : MonoBehaviour
     private void UpdateAnimation()
     {
         isWalking = (Vector2.Distance(transform.position, currentTarget.position) <= 0.2f);
-        animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isWalking", true);
     }
 
     private void Flip()
